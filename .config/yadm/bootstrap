@@ -9,7 +9,7 @@ yadm decrypt
 
 # import gpg private key
 echo "Importing gpg private key"
-gpg --import ~/.gnupg/gpg-private.key
+gpg --import ~/.gnupg/gpg-private.asc
 
 # generate key bindings for less
 echo "Generating less key binds"
