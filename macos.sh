@@ -10,6 +10,7 @@
 # set dock to auto hide
 # turn off "show suggested and recent apps in dock"
 # turn off auto caps and spell check
+# turn off "add period with double space"
 
 # install google chrome, set as default web browser
 # install 1password
