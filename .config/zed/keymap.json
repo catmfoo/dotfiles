@@ -1,0 +1,58 @@
+/*
+ * catmfoo's zed keymap
+ * :]
+ */
+[
+  // rebind editor git restore
+  {
+    "context": "Editor && !agent_diff && !AgentPanel",
+    "bindings": {
+      "space h r": "git::Restore",
+    },
+  },
+  {
+    "context": "Editor && !agent_diff && !AgentPanel",
+    "unbind": {
+      "alt-cmd-z": "git::Restore",
+    },
+  },
+  // rebind editor git stage toggle
+  {
+    "context": "Editor && !agent_diff && !AgentPanel",
+    "bindings": {
+      "space h s": "git::ToggleStaged",
+    },
+  },
+  {
+    "context": "Editor && !agent_diff && !AgentPanel",
+    "unbind": {
+      "alt-cmd-y": "git::ToggleStaged",
+    },
+  },
+  // rebind editor git blame hover
+  {
+    "context": "Editor",
+    "bindings": {
+      "space h b": "editor::BlameHover",
+    },
+  },
+  {
+    "context": "Editor",
+    "unbind": {
+      "cmd-k cmd-b": "editor::BlameHover",
+    },
+  },
+  // rebind editor git panel toggle
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-shift-g": "git_panel::ToggleFocus",
+    },
+  },
+  {
+    "context": "Workspace",
+    "unbind": {
+      "ctrl-shift-g": "git_panel::ToggleFocus",
+    },
+  },
+]
