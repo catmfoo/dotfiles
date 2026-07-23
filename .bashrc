@@ -47,6 +47,7 @@ alias nnn='nnn -C'
 source ~/.config/nnn/quitcd.sh
 export NNN_BMS='f:~/dev/fitdegree;n:~/.config/nvim;m:~/dev/cowbudget'
 export NNN_TRASH=1
+export NNN_OPENER=zed
 
 # ----- misc ----- #
 
