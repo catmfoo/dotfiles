@@ -3,6 +3,11 @@
  * :]
  */
 {
+  "cli_default_open_behavior": "existing_window",
+  "diff_view_style": "split",
+  "horizontal_scroll_margin": 5.0,
+  "vertical_scroll_margin": 10.0,
+  "scroll_beyond_last_line": "off",
   "auto_install_extensions": {
     "html": true,
     "php": true,
@@ -36,6 +41,8 @@
   "languages": {
     "TypeScript": { "formatter": "prettier" },
     "HTML": { "formatter": "prettier" },
+    "CSS": { "formatter": "prettier" },
+    "SCSS": { "formatter": "prettier" },
     "JSON": { "formatter": "prettier" },
     // for angular specifically, the prettier.allowed=true thing is needed
     // for some reason
