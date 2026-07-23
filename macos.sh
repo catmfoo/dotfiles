@@ -46,7 +46,7 @@ yadm clone --no-bootstrap --recurse-submodules https://github.com/catmfoo/dotfil
 yadm bootstrap
 
 # tool stuffs
-brew install nnn tmux ripgrep http-prompt git-delta neofetch sops
+brew install neovim nnn tmux ripgrep http-prompt git-delta neofetch sops
 
 # language stuffs
 brew install nvm
