@@ -15,14 +15,11 @@
 # install google chrome, set as default web browser
 # install 1password
 # install spotify
-# install obsidian
 # install discord
-# install iterm2 (default terminal app doesn't support truecolor)
-# install neovide
 # install docker desktop
 # install jetbrains mono
 # install datagrip
-# install vscode
+# install zed
 # install slack
 # install zoom
 # install photoshop
@@ -34,9 +31,6 @@
 # install mos (otherwise non app mouse scrolling is terrible)
 
 # setup dock as desired
-
-# iterm settings
-# enable clipboard access
 
 # install homebrew
 
@@ -52,7 +46,7 @@ yadm clone --no-bootstrap --recurse-submodules https://github.com/catmfoo/dotfil
 yadm bootstrap
 
 # tool stuffs
-brew install neovim nnn tmux ripgrep http-prompt git-delta neofetch sops
+brew install nnn tmux ripgrep http-prompt git-delta neofetch sops
 
 # language stuffs
 brew install nvm
