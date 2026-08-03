@@ -23,25 +23,25 @@
   },
   // add editor keybinds for inline git actions using space as an editor leader
   {
-    "context": "Editor",
+    "context": "Editor && vim_mode != insert",
     "bindings": {
       "space h r": "git::Restore",
     },
   },
   {
-    "context": "Editor",
+    "context": "Editor && vim_mode != insert",
     "bindings": {
       "space h s": "git::ToggleStaged",
     },
   },
   {
-    "context": "Editor",
+    "context": "Editor && vim_mode != insert",
     "bindings": {
       "space h b": "editor::BlameHover",
     },
   },
   {
-    "context": "Editor",
+    "context": "Editor && vim_mode != insert",
     "bindings": {
       "space h p": "editor::ToggleSelectedDiffHunks",
     },

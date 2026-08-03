@@ -3,6 +3,15 @@
  * :]
  */
 {
+  "agent_servers": {
+    "claude-acp": {
+      "default_config_options": {
+        "fast": false,
+        "mode": "acceptEdits"
+      },
+      "type": "registry"
+    }
+  },
   "cli_default_open_behavior": "existing_window",
   "diff_view_style": "split",
   "horizontal_scroll_margin": 5.0,
